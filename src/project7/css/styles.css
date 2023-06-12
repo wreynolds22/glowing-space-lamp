@@ -1,12 +1,38 @@
-body{
-    background-color:rgb(255, 226, 240);
+body {
+    background-color: rgb(255, 226, 240);
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2{
-    color:hotpink
+h1,
+h2 {
+    color: hotpink;
 }
 
-p{
-    color:hotpink
+p {
+    color: hotpink;
+}
+a:link {
+    color: hotpink;
+    text-decoration: none;
+}
+a:visited {
+    color: deeppink;
+}
+a:hover {
+    color: deeppink;
+    text-decoration: underline;
+}
+ya a:active {
+    color: deeppink;
+}
+input.submit, input.text {
+color: hotpink;
+}
+input.submit:hover, input.text:focus {
+background-color: hotpink;
+		color: white;
+}
+input.email:valid {
+		background-color: hotpink;
+		color: white;
 }
